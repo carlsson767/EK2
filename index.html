@@ -6,7 +6,7 @@
   <title>EKstudio — Дизайн и оформление пространств</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Antonio:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -61,15 +61,15 @@
       <div class="section-grid about-grid">
         <div class="about-text-col">
           <span class="section-label">О студии</span>
-          <h2 class="section-title">
-            EK — студия дизайна<br/>
-            и оформления <span class="underline-red">пространств</span>
-          </h2>
+          <h1 class="hero-title">
+            ЕК — студия дизайна<br/>
+            и оформления пространств
+          </h1>
           <p class="body-text">Мы разрабатываем концепции, создаём эскизы и реализуем проекты под ключ — для коммерческих пространств и частных событий.</p>
           <p class="body-text">Нас выбирают за системный подход, внимание к архитектуре проекта и умение превращать идею в цельную визуальную историю.</p>
           <div class="about-stats">
             <div class="stat-item">
-              <span class="stat-num">7+</span>
+              <span class="stat-num">13+</span>
               <span class="stat-desc">лет опыта</span>
             </div>
             <div class="stat-divider"></div>
@@ -93,7 +93,7 @@
             </div>
           </div>
           <div class="about-card-small">
-            <div class="about-card-icon">✦</div>
+            <img src="images/Subtract-2.svg" alt="Иконка" class="about-card-icon" />
             <span>Индивидуальный подход к каждому проекту</span>
           </div>
         </div>
@@ -124,7 +124,8 @@
             <h3 class="step-title">Разработка концепции</h3>
             <p class="step-desc">Мы формируем концепцию оформления пространства: собираем стиль, цвет, настроение и ключевые акценты.
                Это тот самый этап, где дизайн перестаёт быть абстрактным и начинает превращаться в 
-               продуманную визуальную систему, адаптированную под конкретный объект.</p>
+               продуманную визуальную систему, адаптированную под конкретный объект.
+               В концепции проекта, по запросу, разрабатывается фирменный стиль, цветовая палитра, логтип и пр.</p>
           </div>
         </div>
         <div class="step-item reveal">
@@ -151,8 +152,7 @@
             <h3 class="step-title">Реализация</h3>
             <p class="step-desc">Финальный этап — воплощение. Мы выезжаем на площадку, собираем пространство, выстраиваем композиции
                и доводим всё до нужного состояния. В результате получается целостное
-               оформление под ключ, где каждая деталь работает на атмосферу и общее впечатление.
-               В концепции проекта, по запросу, разрабатывается фирменный стиль, цветовая палитра, логтип и пр.</p>
+               оформление под ключ, где каждая деталь работает на атмосферу и общее впечатление.</p>
           </div>
         </div>
       </div>
@@ -164,7 +164,7 @@
     <div class="container">
       <div class="section-header">
         <span class="section-label">Направления работы</span>
-        <h2 class="section-title">Что мы <span class="underline-red">создаём</span></h2>
+        <h2 class="section-title">Что мы создаём</h2>
       </div>
       <div class="services-grid">
         <div class="service-card reveal">
@@ -172,7 +172,7 @@
           <div class="service-card-overlay"></div>
           <div class="service-card-body">
             <span class="service-num">01</span>
-            <h3 class="service-title">Коммерческие пространства</h3>
+            <h3 class="service-title">Коммерческие и частные пространства</h3>
             <p class="service-desc">Оформление ресторанов, бутиков, салонов, шоурумов и общественных пространств.</p>
             <a href="#contact" class="service-link">Обсудить проект <span>→</span></a>
           </div>
@@ -231,13 +231,31 @@
     </div>
   </section>
 
+  <!-- RESTORATION -->
+  <section class="section section-light-bg" id="restoration">
+    <div class="container">
+      <div class="section-grid about-grid">
+        <div class="restoration-text reveal">
+          <span class="section-label">Дополнительно</span>
+          <h2 class="section-title">Реставрация декора<br>и элементов интерьера</h2>
+          <p class="body-text">Выполняем реставрацию элементов декора любой сложности. От небольших деталей до крупных конструкций. Мы выезжаем на объект, проводим оценку состояния и аккуратно демонтируем элементы при необходимости.</p>
+          <p class="body-text">Реставрационные работы выполняются в студии с учётом материалов и технологии, чтобы сохранить внешний вид и прочность. После этого привозим готовый объект обратно и осуществляем монтаж на месте. Берём на себя весь процесс, от выезда до финальной установки.</p>
+          <a href="#contact" class="btn btn-primary" style="margin-top: 2rem;">Обсудить проект <span class="btn-arrow">→</span></a>
+        </div>
+        <div class="restoration-visual reveal">
+          <img src="images/restoration.jpg" alt="Реставрация декора" class="restoration-img" />
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- WHY US -->
   <section class="section why-section" id="why">
     <div class="container">
       <div class="why-grid">
         <div class="why-left reveal">
           <span class="section-label">Почему выбирают нас</span>
-          <h2 class="section-title">Мы проектируем атмосферу, которая работает<br/> <span class="red"> на ваш бизнес или событие</span></h2>
+          <h2 class="hero-title">Мы проектируем атмосферу, которая работает<br/> <span class="red">на ваш бизнес или событие</span></h2>
           <a href="#contact" class="btn btn-primary" style="margin-top:2rem">Начать проект <span class="btn-arrow">→</span></a>
         </div>
         <div class="why-right">
@@ -286,67 +304,21 @@
     <div class="container">
       <div class="section-header">
         <span class="section-label">Портфолио</span>
-        <h2 class="section-title">Наши <span class="underline-red">проекты</span></h2>
+        <h2 class="section-title">Наши проекты</h2>
         <p class="section-subtitle">Каждый проект — это диалог с пространством.</p>
       </div>
       <div class="portfolio-filter">
-        <button class="filter-btn active" data-filter="commercial">Коммерческие</button>
+        <button class="filter-btn active" data-filter="commercial">Коммерческие пространства</button>
         <button class="filter-btn" data-filter="seasonal">Сезонное</button>
-        <button class="filter-btn" data-filter="events">Событийные</button>
+        <button class="filter-btn" data-filter="events">События</button>
         <button class="filter-btn" data-filter="sketches">Эскизы</button>
         <button class="filter-btn" data-filter="green">Озеленение</button>
          <button class="filter-btn" data-filter="design">Дизайн</button>
+        <button class="filter-btn" data-filter="restoration">Реставрация декора</button>
       </div>
-     <div class="portfolio-grid">
-  <div class="portfolio-item portfolio-item-large reveal" data-category="commercial">
-    <div class="portfolio-img portfolio-img-1"></div>
-    <div class="portfolio-overlay">
-      <span class="portfolio-tag">Коммерческое</span>
-      <h4>Ресторан «Архитектура»</h4>
-      <span class="portfolio-link">Смотреть проект →</span>
-    </div>
-  </div>
-  <div class="portfolio-item reveal" data-category="sketches">
-    <div class="portfolio-img portfolio-img-2"></div>
-    <div class="portfolio-overlay">
-      <span class="portfolio-tag">Свадьба</span>
-      <h4>Церемония в белом</h4>
-      <span class="portfolio-link">Смотреть проект →</span>
-    </div>
-  </div>
-  <div class="portfolio-item reveal" data-category="seasonal">
-    <div class="portfolio-img portfolio-img-3"></div>
-    <div class="portfolio-overlay">
-      <span class="portfolio-tag">Сезонное</span>
-      <h4>Новогоднее оформление</h4>
-      <span class="portfolio-link">Смотреть проект →</span>
-    </div>
-  </div>
-  <div class="portfolio-item reveal" data-category="events">
-    <div class="portfolio-img portfolio-img-4"></div>
-    <div class="portfolio-overlay">
-      <span class="portfolio-tag">Событие</span>
-      <h4>Презентация бренда</h4>
-      <span class="portfolio-link">Смотреть проект →</span>
-    </div>
-  </div>
-  <div class="portfolio-item portfolio-item-large reveal" data-category="green">
-    <div class="portfolio-img portfolio-img-5"></div>
-    <div class="portfolio-overlay">
-      <span class="portfolio-tag">Озеленение</span>
-      <h4>Лофт — живой декор</h4>
-      <span class="portfolio-link">Смотреть проект →</span>
-    </div>
-  </div>
-  <div class="portfolio-item portfolio-item-large reveal" data-category="design">
-    <div class="portfolio-img portfolio-img-6"></div>
-    <div class="portfolio-overlay">
-      <span class="portfolio-tag">Дизайн</span>
-      <h4>Лофт — живой декор</h4>
-      <span class="portfolio-link">Смотреть проект →</span>
-    </div>
-  </div>
-</div>
+      <div class="portfolio-grid">
+        <!-- Проекты загрузятся сюда автоматически из базы данных через JavaScript -->
+      </div>
 </section>
 
   <!-- REVIEWS -->
@@ -357,58 +329,10 @@
         <h2 class="section-title section-title-light">Что говорят<br/> <span class="red">клиенты</span></h2>
       </div>
       <div class="reviews-slider" id="reviews-slider">
-        <div class="review-card active">
-          <div class="review-quote">"</div>
-          <p class="review-text">EKstudio полностью изменили восприятие нашего ресторана. Они не просто украсили пространство — они создали атмосферу, которая стала частью нашего бренда. Гости стали возвращаться чаще.</p>
-          <div class="review-author">
-            <div class="review-avatar">АК</div>
-            <div>
-              <strong>Анна Коваль</strong>
-              <span>Владелец ресторана «Модерн»</span>
-            </div>
-          </div>
-        </div>
-        <div class="review-card">
-          <div class="review-quote">"</div>
-          <p class="review-text">Работали с EKstudio над оформлением шоурума. Команда профессиональная — всё в срок, всё точно по концепции. Результат превзошёл ожидания.</p>
-          <div class="review-author">
-            <div class="review-avatar">МС</div>
-            <div>
-              <strong>Михаил Серов</strong>
-              <span>Директор по маркетингу</span>
-            </div>
-          </div>
-        </div>
-        <div class="review-card">
-          <div class="review-quote">"</div>
-          <p class="review-text">Свадьба мечты стала реальностью благодаря EKstudio. Они услышали нас и создали именно то пространство, которое мы хотели. Каждая деталь была продумана.</p>
-          <div class="review-author">
-            <div class="review-avatar">ОЛ</div>
-            <div>
-              <strong>Ольга Лазарева</strong>
-              <span>Частный клиент</span>
-            </div>
-          </div>
-        </div>
-        <div class="review-card">
-          <div class="review-quote">"</div>
-          <p class="review-text">Сотрудничаем с EKstudio уже три года подряд для сезонного оформления наших магазинов. Стабильное качество, творческий подход, соблюдение бюджета.</p>
-          <div class="review-author">
-            <div class="review-avatar">ДВ</div>
-            <div>
-              <strong>Дарья Волкова</strong>
-              <span>Руководитель сети бутиков</span>
-            </div>
-          </div>
-        </div>
       </div>
       <div class="reviews-controls">
         <button class="review-btn" id="prev-review" aria-label="Назад">←</button>
         <div class="review-dots" id="review-dots">
-          <span class="dot active"></span>
-          <span class="dot"></span>
-          <span class="dot"></span>
-          <span class="dot"></span>
         </div>
         <button class="review-btn" id="next-review" aria-label="Вперёд">→</button>
       </div>
@@ -472,11 +396,27 @@
               <input type="text" id="position" name="position" placeholder="Директор по маркетингу" />
             </div>
             <div class="form-group">
+            <label for="service">Интересующая услуга</label>
+            <select id="service" name="service" required>
+              <option value="" disabled selected>Выберите направление...</option>
+              <option value="Коммерческие и частные пространства">Коммерческие и частные пространства</option>
+              <option value="Сезонное оформление">Сезонное оформление</option>
+              <option value="Событийные проекты">Событийные проекты</option>
+              <option value="Эскизы">Эскизы</option>
+              <option value="Озеленение">Озеленение</option>
+              <option value="Графический дизайн">Графический дизайн</option>
+              <option value="Реставрация декора">Реставрация декора</option>
+            </select>
+          </div>
+          <div class="form-group">
               <label for="message">Расскажите о проекте</label>
               <textarea id="message" name="message" rows="3" placeholder="Опишите ваш объект и задачу..."></textarea>
             </div>
+            <div class="form-checkbox">
+              <input type="checkbox" id="privacy" name="privacy" required />
+              <label for="privacy">Я согласен с <a href="docs/privacy-policy.pdf" target="_blank">политикой обработки персональных данных</a> <span class="red">*</span></label>
+            </div>
             <button type="submit" class="btn btn-primary btn-full">Оставить заявку <span class="btn-arrow">→</span></button>
-            <p class="form-note">Нажимая кнопку, вы соглашаетесь с политикой обработки персональных данных</p>
           </form>
           <div class="form-success" id="form-success">
             <div class="success-icon">✓</div>
@@ -493,7 +433,7 @@
     <div class="container">
       <div class="footer-grid">
         <div class="footer-brand">
-          <span class="nav-logo">EK<span class="red">studio</span></span>
+          <span class="nav-logo">EK<img src="images/logo2.png" alt="logo" class="nav-logo-img" style="margin-left: 4px;" /></span>
           <p>Студия дизайна и оформления пространств</p>
         </div>
         <div class="footer-links">
@@ -533,6 +473,24 @@
       </div>
     </div>
   </footer>
+
+  <!-- PORTFOLIO MODAL -->
+  <div class="portfolio-modal" id="portfolio-modal">
+    <button class="modal-close" id="modal-close" aria-label="Закрыть">✕</button>
+    <div class="modal-content" id="modal-content">
+      <div class="modal-category" id="modal-category">Категория</div>
+      <h2 class="section-title" id="modal-title">Название проекта</h2>
+      <div class="modal-body">
+        <p class="body-text">Здесь будет располагаться подробное описание проекта, процесс работы и задачи, которые стояли перед студией. Как на Behance, текст чередуется с фотографиями.</p>
+        
+        <div class="modal-gallery">
+          <div class="modal-img-placeholder">Место для большого фото</div>
+          <div class="modal-img-placeholder">Место для большого фото</div>
+          <div class="modal-img-placeholder">Место для большого фото</div>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <script src="script.js"></script>
 </body>
