@@ -898,10 +898,12 @@ img.hero-bg-text {
   .portfolio-grid { grid-template-columns: 1fr; }
   .portfolio-item-large { grid-column: span 1; aspect-ratio: 1; }
   .step-item { grid-template-columns: 80px 1fr; gap: 1rem; }
-  .about-stats { flex-wrap: wrap; justify-content: center; }
+  .about-stats { flex-direction: column; gap: 1.5rem; align-items: center; }
+  .stat-divider { width: 60px; height: 1px; }
   .footer-bottom { flex-direction: column; gap: .5rem; text-align: center; }
   .hero-title { font-size: clamp(1.8rem, 8vw, 2.5rem); }
   .section-title { font-size: clamp(1.8rem, 8vw, 2.5rem); }
+  .hero-scroll-indicator { bottom: 1rem; }
   .restoration-visual { justify-content: center; }
 }
 
